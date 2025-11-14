@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # INF-8239: Proyecto Final - Clasificación de Neumonía en Radiografías de Tórax
 
 ## Maestría de Ciencia de Datos y Inteligencia Artificial - UASD
@@ -54,9 +54,10 @@ El proyecto está diseñado con un enfoque modular, con código bien organizado 
     ```bash
     pip install -r requirements.txt
     ```
-2.  **Configuración de Rutas:** Modifique las variables de ruta (`train_dir`, `val_dir`, `test_dir`, `base_path`) en la primera celda de `main.ipynb` para que apunten a la ubicación de su dataset.
+2.  **Configuración de Rutas:** Modifique las variables madre, que es relativa (`train_dir`, `val_dir`, `test_dir`, `base_path`) en la primera celda de `main.ipynb` para que apunten a la ubicación de su dataset.
 3.  **Ejecución:** Ejecute las celdas de `main.ipynb` en orden, asegurándose de tener una **GPU** activada.
 4.  **Selección de Modo:** Al llegar a la celda de orquestación, elija **E** (Entrenar) o **C** (Cargar modelos).
+5.  **Opcion run: Al seleccionar C, va a cargar los modelos entrenados con los que se utilizo este datset.
 =======
 # uasdchestxray
 Ciencia de Datos II
